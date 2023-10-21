@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>F:\10_Repository\Progetti\Prodotti\2017\FFPR1702_ShieldCanRpi\20_Output\10_HwProject\10_PCB\CanPi\CanPi.sch</source>
+    <date>09/02/2019 20:20:09</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>15 nov 2012</date>
+        <source>CanPi.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>RPI Conn</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x13</footprint>
+      <libsource lib="CanPi-rescue" part="CONN_13X2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>50A55ABA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP2515</value>
+      <footprint>w_smd_dil:soic-18</footprint>
+      <libsource lib="CanPi-rescue" part="MCP2515" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F61F5F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F61FD6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6204D</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>w_crystal:crystal_hc-49%2fsmd</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F62082</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F62C45</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP2551</value>
+      <footprint>w_smd_dil:so-8</footprint>
+      <libsource lib="CanPi-rescue" part="MCP2551" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6302F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6359F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CAN1</value>
+      <footprint>w_conn_mkds:mkds_1,5-3</footprint>
+      <libsource lib="conn" part="Conn_01x03" description="Generic connector, single row, 01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F636DB</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Term</value>
+      <footprint>w_pin_strip:pin_strip_2</footprint>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F63AFE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>120</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F63CE1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>15k</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F64455</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6449E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4,7k</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F64C2E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CAN2</value>
+      <footprint>w_conn_mkds:mkds_1,5-3</footprint>
+      <libsource lib="conn" part="Conn_01x03" description="Generic connector, single row, 01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F64F56</tstamp>
+    </comp>
+    <comp ref="LD1">
+      <value>5V</value>
+      <footprint>w_smd_leds:Led_PLCC2_3528</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F6566B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F65720</tstamp>
+    </comp>
+    <comp ref="LD2">
+      <value>3.3V</value>
+      <footprint>w_smd_leds:Led_PLCC2_3528</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F65D82</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F65D88</tstamp>
+    </comp>
+    <comp ref="LD3">
+      <value>USER_LED</value>
+      <footprint>w_smd_leds:Led_PLCC2_3528</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F65DC7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>330</value>
+      <footprint>w_smd_resistors:r_0805</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F65DCD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CanPi-rescue" part="CONN_13X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_13X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P20" type="passive"/>
+        <pin num="25" name="P24" type="passive"/>
+        <pin num="26" name="P22" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CanPi-rescue" part="MCP2515">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2515</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="input"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT/SOF" type="input"/>
+        <pin num="4" name="TX0RTS" type="input"/>
+        <pin num="5" name="TX1RTS" type="input"/>
+        <pin num="6" name="TX2RTS" type="input"/>
+        <pin num="7" name="OSC2" type="input"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="Vss" type="input"/>
+        <pin num="10" name="RX1BF" type="input"/>
+        <pin num="11" name="RX0BF" type="input"/>
+        <pin num="12" name="INT" type="input"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="input"/>
+        <pin num="16" name="CS" type="input"/>
+        <pin num="17" name="RESET" type="input"/>
+        <pin num="18" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CanPi-rescue" part="MCP2551">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2551</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="Vss" type="input"/>
+        <pin num="3" name="Vdd" type="input"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="Vref" type="input"/>
+        <pin num="6" name="CANL" type="input"/>
+        <pin num="7" name="CANH" type="input"/>
+        <pin num="8" name="RS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <description>Jumper, normally closed</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CanPi-rescue">
+      <uri>F:\10_Repository\Progetti\Prodotti\2017\FFPR1702_ShieldCanRpi\20_Output\10_HwProject\10_PCB\CanPi/CanPi-rescue.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CANH">
+      <node ref="J2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(JP1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="3" name="/CANL">
+      <node ref="U2" pin="6"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="4" name="/TXCAN">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="5" name="/MISO">
+      <node ref="P1" pin="21"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="6" name="/MOSI">
+      <node ref="U1" pin="14"/>
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="7" name="/GPIO22">
+      <node ref="U1" pin="12"/>
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="8" name="/GPIO21">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="9" name="/GPIO17">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="10" name="/GPIO1(SCL)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="11" name="/GPIO0(SDA)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="12" name="/SCLK">
+      <node ref="P1" pin="23"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="14" name="/RXCAN">
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="15" name="/RXD_CT">
+      <node ref="U2" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="16" name="/CE0">
+      <node ref="P1" pin="24"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="17" name="/OSC1">
+      <node ref="U1" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="18" name="/OSC2">
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="19" name="/GPIO7(CE1)">
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="20" name="/GPIO25">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="21" name="/GPIO24">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="22" name="/GPIO23">
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="23" name="/GPIO18">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="24" name="/RXD">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="25" name="/TXD">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="26" name="/GPIO4">
+      <node ref="P1" pin="7"/>
+      <node ref="LD3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(LD3-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="LD3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(LD2-Pad1)">
+      <node ref="LD2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="29" name="+3V3">
+      <node ref="U1" pin="18"/>
+      <node ref="LD2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="17"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="31" name="+5V">
+      <node ref="LD1" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(LD1-Pad1)">
+      <node ref="LD1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="33" name="Net-(P1-Pad20)">
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="34" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="36" name="Net-(P1-Pad25)">
+      <node ref="P1" pin="25"/>
+    </net>
+    <net code="37" name="Net-(P1-Pad17)">
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="43" name="Net-(P1-Pad9)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="44" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+  </nets>
+</export>
