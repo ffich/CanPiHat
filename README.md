@@ -1,13 +1,7 @@
-# CanPiHat
-HW project of the CAN bus Raspberry PI HAT developed for Elettronica In.
-
-# Description
-The CanPi HAT is a Raspberry PI compatible HAT with an SPI CAN bus controller + CAN 2.0B compliant Transceiver, that allows to connect a Raspberry PI to CAN Bus.
-
 # 🐍🔌 CanPiHat — CAN Bus HAT for Raspberry Pi
 
 A rugged **CAN-Bus HAT** for the **Raspberry Pi**, powered by the **Microchip MCP2515** CAN controller 🧠 and **MCP2551** high-speed transceiver ⚡.  
-Perfect for automotive 🚗, industrial 🏭, and robotics 🤖 CAN applications.
+Perfect for automotive 🚗, industrial 🏭, and robotics 🤖 CAN applications. The CanPi HAT is a Raspberry PI compatible HAT with an SPI CAN bus controller + CAN 2.0B compliant Transceiver, that allows to connect a Raspberry PI to CAN Bus.****
 
 ---
 
