@@ -1,6 +1,6 @@
 # 🐍🔌 CanPiHat — CAN Bus HAT for Raspberry Pi
 
-A rugged **CAN-Bus HAT** for the **Raspberry Pi**, powered by the **Microchip MCP2515** CAN controller 🧠 and **MCP2551** high-speed transceiver ⚡. Perfect for automotive 🚗, industrial 🏭, and robotics 🤖 CAN applications.
+A rugged **CAN-Bus HAT** for the **Raspberry Pi**, powered by the **Microchip MCP2515** CAN controller 🧠 and **MCP2551** high-speed transceiver. Perfect for automotive 🚗, industrial 🏭, and robotics 🤖 CAN applications.
 
 ---
 
